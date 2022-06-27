@@ -1,0 +1,151 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+}
+html{
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    font-size: 62.5%;
+    
+}
+.container{
+    padding: 0rem;
+}
+
+.header{
+
+position: fixed;
+    top: 0; left: 0;right: 0;
+    background: #A9A9A9;
+    padding: 1rem 7%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+}
+
+.header__logo{
+    
+    width: 10rem;
+    height: 2.5rem;
+    font-size: 2.5rem;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 2rem;
+    
+}
+.header__logo a{
+    color:#FF1493;
+}
+
+.header__socail i {
+    font-size: 2rem;
+    padding: 1rem;
+    color: #FF69B4	;
+    background-color: #4B0082;
+    border-radius: 50%;
+}
+.header__socail{
+    margin-right: 1rem;
+}
+.content {
+   margin-top: 3rem;
+}
+.content img{
+    width: 30rem;
+    height: 40rem;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 2rem;
+}
+.content__subinfor h3{
+    color: #FF1493;
+    font-size: 3rem;
+}
+.content__subinfor p{
+    font-size: 1.5rem;
+    word-spacing: 30rem;
+
+}
+
+.content__subinfor{
+    display: flex;
+    align-items: center;
+    position: relative;
+    left: 35rem;
+}
+.space{
+    width: 100%;
+    height: 7rem;
+    background-color: black;
+}
+.content-header{
+    display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.abtme .abtme__head {
+    display: inline-block;
+    font-weight: 700;
+    color: #000;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 16px;
+    border-bottom: 3px solid #F26464;
+    padding-bottom: 7px;
+    margin-bottom: 23px;
+}
+.abtme p{
+    color: #373737;
+    font-size: 2rem;
+    line-height: 4rem;
+    font-weight:400rem;
+    margin-bottom: 60rem;
+    display: block;
+}
+section {   
+     padding: 2rem 9%;
+    }
+    .Information .box-container{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+        gap: 1.5rem;
+    }
+   
+    .Information .box-container .box h3{
+        padding: .5rem 0;
+        font-size: 2.5rem;
+        color: var(--black);
+    }
+   
+   
+    .Information .box-container .box a{
+       display: block;
+       padding: .5rem 0;
+       font-size: 1.5rem;
+       color: var(--light-color);
+   }
+   
+   .Information .box-container .box a:hover{
+       color: var(--green);
+       text-decoration: underline;
+   }
+   
+   .Information .credit{
+       text-align: center;
+       border-top: .1rem solid rgba(0,0,0,.1);
+       font-size: 2rem;
+       color: var(--black);
+       padding: .5rem;
+       padding-top: 1.5rem;
+   }
+   
+   .Information .credit span{
+       color: var(--green);
+   }
+   
